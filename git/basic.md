@@ -12,7 +12,7 @@
 
  git-scm.com 에서 다운로드
 
-
+s
 
 ## git 사용법
 
@@ -82,7 +82,7 @@ $ git status
 1. 스테이지 올리기
 
    ```
-   $ git add. #수정된 전체 파일
+   $ git add . #수정된 전체 파일
    
    $ git add 파일명1 파일명2 #일부 파일
    ```
@@ -97,9 +97,21 @@ $ git status
 
    메시지를 사용하는 이유 : 수정사항을 명확히 명시하기 위해
 
+### 원격 저장소
+
+1. github 홈페이지에서 'new repository'
+
+2. ```
+   $ git remote add origin https://~ #origin은 저장소의 이름
+   $ git remote -v #원격저장소 확인
+   
+   $ git push origin master 
+   로그인 팝업창이 뜨고 저장이 완료됨
+   ```
 
 
-### 그 외 명령어
+
+### 그 외 ㅌ명령어
 
 - 로그 보기
 
