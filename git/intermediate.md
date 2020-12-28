@@ -24,7 +24,9 @@ $ git switch <name> #변경
 $ git merge <name> #master에 병합
 ```
 
-![image-20201228093912337](intermediate.assets/image-20201228093912337.png)
+![image-20201228101617166](intermediate.assets/image-20201228101617166.png)
+
+
 
 
 
